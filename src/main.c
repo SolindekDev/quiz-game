@@ -81,14 +81,13 @@ int main(int argc, char** argv) {
 	set_terminal_size(32, 150);
 	/* ------------ */
 
-	win();
-
 	question1();
 	question2();
 	question3();
 	question4();
 	question5();
 
-
+	win();
+	
 	return 0;
 }
